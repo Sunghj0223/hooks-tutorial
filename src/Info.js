@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import useInputs from './useInputs';
 
 const Info = () => {
     const [name, setName] = useState('');
